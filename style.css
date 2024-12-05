@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(205, 242, 194);
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(47, 46, 46);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(221, 250, 215);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.5);
+    padding: 20px;
+
+}
+fieldset {
+    border: 2px solid rgb(46, 240, 28);
+    color: rgb(47, 46, 46);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(177, 247, 182);
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(47, 46, 46);
+
+}
+label {
+    display: block;
+    margin-top: 10px;
+   color: rgb(47, 46, 46);
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(193, 247, 182);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(71, 240, 56) ;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+}
+button:hover {
+    background-color: rgb(26, 206, 3);
+}
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(115, 247, 89);
+    border-radius: 8px;
+    background-color: rgb(171, 244, 169);
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.5);
+
+
+}
+#resumeOutput h2 {
+    color: rgb(51, 49, 49);
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(91, 237, 61);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 500%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
